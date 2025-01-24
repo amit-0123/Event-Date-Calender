@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+     
+  }
+  
+  .add-event-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+    background: #8d8d8f;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+     align-items: center;
+     margin-top: 1rem;
+  }
+  
+  .add-event-form input {
+    display: flex;
+    margin: 5px 5px 5px 0;
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+  }
+  
+  .event-table-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .event-table th,
+.event-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: #333;
+}
+  
+  .event-table th {
+  background-color: #2e3c51;
+  color: white;
+}
+  
+  .event-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    
+  }
+
+  .add-event-form button {
+    padding: 5px;
+    background-color: #3a8dff;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+
+  .event-table button:hover {
+    transform: scale(1.5);
+  }
+
+
+
+  /* Filters container */
+.filters {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.date-filter, .search-filter {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 45%;
+}
+
+.filter-sort-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.filter-sort-container div {
+  display: flex;
+  align-items: center;
+}
+
+.filter-sort-container label {
+  margin-right: 5px;
+}
+
+.filter-sort-container input,
+.filter-sort-container select {
+  padding: 5px;
+}
+
+
+
+
+
+  
+  /* Expired column styling
+  .event-table td:nth-child(5) {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .event-table td:nth-child(5):contains("Yes") {
+    color: red;
+  }
+  
+  .event-table td:nth-child(5):contains("No") {
+    color: green;
+  }
+
+
+ */
+
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.event-table-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.event-table th,
+.event-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.event-table th {
+  background-color: #3a8dff;
+  color: white;
+}
+
+.event-table tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+
+.add-event-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-event-form input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-event-form button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #3a8dff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-event-form button:hover {
+  background-color: #007bff;
+} */
